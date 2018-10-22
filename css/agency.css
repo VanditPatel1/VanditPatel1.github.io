@@ -173,14 +173,20 @@ img::-moz-selection {
   }
 }
 
-header.masthead {
-  text-align: center;
-  color: white;
+
+#particles-js{
+    z-index: 950;
   background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+}
+
+header.masthead {
+  text-align: center;
+  color: white;
+
 }
 
 header.masthead .intro-text {
@@ -225,6 +231,8 @@ header.masthead .intro-text .intro-heading {
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
 }
+
+
 
 .service-heading {
   margin: 15 px 0;
